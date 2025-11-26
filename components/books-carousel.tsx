@@ -103,9 +103,15 @@ export default function BooksCarousel() {
                   </div>
                   <h3 className="text-2xl font-serif font-bold text-foreground mt-6 text-center">{book.title}</h3>
                   <p className="text-secondary text-center mt-2">{book.subtitle}</p>
-                  <Button className="mt-4 px-6 py-2 bg-accent text-accent-foreground font-semibold rounded-lg hover:shadow-lg hover:shadow-accent/50 transition-all duration-300">
-                    Buy on Amazon →
-                  </Button>
+                  <a
+                    href={book.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button className="mt-4 px-6 py-2 bg-accent text-accent-foreground font-semibold rounded-lg hover:scale-110 hover:bg-accent/90 transition-all duration-300">
+                      Buy on Amazon →
+                    </Button>
+                  </a>
                 </div>
               )
             })}
