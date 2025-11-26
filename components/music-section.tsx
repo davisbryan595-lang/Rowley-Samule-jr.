@@ -30,7 +30,7 @@ const songs: Song[] = [
 
 export default function MusicSection() {
   return (
-    <section id="music" className="relative py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-primary to-muted">
+    <section id="music" className="relative py-20 px-4 sm:px-6 lg:px-8 bg-primary">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold text-center text-foreground mb-4">
           Music & Lyrics
@@ -50,8 +50,8 @@ export default function MusicSection() {
         {/* YouTube embed placeholder and song cards */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
           {/* YouTube placeholder */}
-          <div className="flex items-center justify-center bg-muted rounded-lg h-96 overflow-hidden group cursor-pointer">
-            <div className="relative w-full h-full bg-gradient-to-br from-muted to-primary flex items-center justify-center hover:scale-105 transition-transform duration-300">
+          <div className="flex items-center justify-center bg-secondary/50 rounded-lg h-96 overflow-hidden group cursor-pointer border border-secondary/40">
+            <div className="relative w-full h-full bg-gradient-to-br from-secondary/40 to-accent/20 flex items-center justify-center hover:scale-105 transition-transform duration-300">
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="text-center">
                   <svg className="w-20 h-20 text-accent mx-auto mb-4" fill="currentColor" viewBox="0 0 24 24">
@@ -68,7 +68,7 @@ export default function MusicSection() {
             {songs.map((song) => (
               <div
                 key={song.id}
-                className="group cursor-pointer bg-muted rounded-lg overflow-hidden hover:shadow-lg hover:shadow-accent/30 transition-all duration-300"
+                className="group cursor-pointer bg-secondary/50 rounded-lg overflow-hidden hover:shadow-lg hover:shadow-accent/30 transition-all duration-300 border border-secondary/40"
               >
                 <div className="flex gap-4">
                   <img
@@ -93,14 +93,14 @@ export default function MusicSection() {
           {songs.map((song) => (
             <div
               key={song.id}
-              className="group cursor-pointer bg-gradient-to-br from-muted to-primary rounded-lg overflow-hidden hover:shadow-lg hover:shadow-accent/50 transition-all duration-300 h-40"
+              className="group cursor-pointer bg-secondary/50 rounded-lg overflow-hidden hover:shadow-lg hover:shadow-accent/50 transition-all duration-300 h-40 border border-secondary/40 relative"
             >
               <img
                 src={song.thumbnail || "/placeholder.svg"}
                 alt={song.title}
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
               />
-              <div className="absolute inset-0 bg-black/50 group-hover:bg-black/30 transition-colors duration-300 flex items-center justify-center">
+              <div className="absolute inset-0 bg-black/50 group-hover:bg-black/30 transition-colors duration-300 flex items-center justify-center pointer-events-none">
                 <svg
                   className="w-16 h-16 text-accent opacity-0 group-hover:opacity-100 transition-opacity"
                   fill="currentColor"

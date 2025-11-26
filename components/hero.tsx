@@ -18,7 +18,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen w-full flex items-center justify-center overflow-hidden bg-primary pt-20 pb-20"
+      className="relative min-h-screen w-full flex items-center justify-center overflow-hidden bg-primary pt-32 sm:pt-40 pb-20"
     >
       {/* Background gradient elements */}
       <div className="absolute inset-0 opacity-20 pointer-events-none">
