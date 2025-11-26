@@ -54,13 +54,13 @@ export default function Hero() {
         <div className="flex flex-col sm:flex-row gap-4 mt-12">
           <Button
             onClick={() => scrollToSection("books")}
-            className="px-8 py-3 bg-accent text-accent-foreground font-semibold text-lg rounded-lg hover:shadow-lg hover:shadow-accent/50 transition-all duration-300 hover:scale-105"
+            className="px-8 py-3 bg-accent text-accent-foreground font-semibold text-lg rounded-lg hover:bg-accent/80 hover:shadow-lg hover:shadow-accent/50 transition-all duration-300 hover:scale-105"
           >
             Explore My Books ↓
           </Button>
           <Button
             onClick={() => scrollToSection("music")}
-            className="px-8 py-3 border-2 border-accent text-accent font-semibold text-lg rounded-lg hover:bg-accent hover:text-accent-foreground transition-all duration-300 hover:scale-105"
+            className="px-8 py-3 border-2 border-accent text-accent font-semibold text-lg rounded-lg hover:bg-accent/80 hover:text-accent-foreground transition-all duration-300 hover:scale-105"
           >
             Listen to My Songs ↓
           </Button>
