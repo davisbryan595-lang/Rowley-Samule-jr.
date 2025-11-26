@@ -50,8 +50,8 @@ export default function MusicSection() {
         {/* YouTube embed placeholder and song cards */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
           {/* YouTube placeholder */}
-          <div className="flex items-center justify-center bg-secondary/20 rounded-lg h-96 overflow-hidden group cursor-pointer border border-secondary/30">
-            <div className="relative w-full h-full bg-gradient-to-br from-secondary/10 to-accent/10 flex items-center justify-center hover:scale-105 transition-transform duration-300">
+          <div className="flex items-center justify-center bg-secondary/50 rounded-lg h-96 overflow-hidden group cursor-pointer border border-secondary/40">
+            <div className="relative w-full h-full bg-gradient-to-br from-secondary/40 to-accent/20 flex items-center justify-center hover:scale-105 transition-transform duration-300">
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="text-center">
                   <svg className="w-20 h-20 text-accent mx-auto mb-4" fill="currentColor" viewBox="0 0 24 24">
@@ -68,7 +68,7 @@ export default function MusicSection() {
             {songs.map((song) => (
               <div
                 key={song.id}
-                className="group cursor-pointer bg-secondary/20 rounded-lg overflow-hidden hover:shadow-lg hover:shadow-accent/30 transition-all duration-300 border border-secondary/30"
+                className="group cursor-pointer bg-secondary/50 rounded-lg overflow-hidden hover:shadow-lg hover:shadow-accent/30 transition-all duration-300 border border-secondary/40"
               >
                 <div className="flex gap-4">
                   <img
@@ -93,7 +93,7 @@ export default function MusicSection() {
           {songs.map((song) => (
             <div
               key={song.id}
-              className="group cursor-pointer bg-secondary/20 rounded-lg overflow-hidden hover:shadow-lg hover:shadow-accent/50 transition-all duration-300 h-40 border border-secondary/30"
+              className="group cursor-pointer bg-secondary/50 rounded-lg overflow-hidden hover:shadow-lg hover:shadow-accent/50 transition-all duration-300 h-40 border border-secondary/40 relative"
             >
               <img
                 src={song.thumbnail || "/placeholder.svg"}
