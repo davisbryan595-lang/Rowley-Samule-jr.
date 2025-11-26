@@ -34,7 +34,7 @@ export default function Hero() {
         {/* Logo with animation */}
         <div className="animate-pulse-gold mb-8">
           <img
-            src="/images/transparent-logo.png"
+            src="https://cdn.builder.io/api/v1/image/assets%2Fdf7e75028bff4b959bd5bdef48ded5a3%2F588aaefea86d4f63b4a5ebc49f6bc013?format=webp&width=800"
             alt="The Works of Rowley Samuels Jr."
             className="w-64 sm:w-80 lg:w-96 h-auto drop-shadow-2xl hover:scale-105 transition-transform duration-300"
           />

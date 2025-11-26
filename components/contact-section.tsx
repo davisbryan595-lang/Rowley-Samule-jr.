@@ -138,13 +138,13 @@ export default function ContactSection() {
               <div className="flex gap-4">
                 <a
                   href="#"
-                  className="p-3 bg-secondary/20 rounded-full hover:bg-accent hover:text-accent-foreground transition-all duration-300"
+                  className="p-3 bg-secondary/20 text-foreground rounded-full hover:bg-accent hover:text-accent-foreground hover:scale-110 transition-all duration-300"
                 >
                   📚 Amazon Author
                 </a>
                 <a
                   href="#"
-                  className="p-3 bg-secondary/20 rounded-full hover:bg-accent hover:text-accent-foreground transition-all duration-300"
+                  className="p-3 bg-secondary/20 text-foreground rounded-full hover:bg-accent hover:text-accent-foreground hover:scale-110 transition-all duration-300"
                 >
                   📺 YouTube
                 </a>

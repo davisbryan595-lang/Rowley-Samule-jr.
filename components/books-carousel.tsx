@@ -18,28 +18,28 @@ const books: Book[] = [
     title: "Wind of Expression",
     subtitle: "Poetry that flows like the wind",
     image: "/poetry-book-cover-wind-expression-flowing-pages-ar.jpg",
-    link: "#",
+    link: "https://www.amazon.com/stores/author/B019HQ5IX6",
   },
   {
     id: 2,
     title: "Stained Glass Window",
     subtitle: "Stories through colored light",
-    image: "/stained-glass-window-book-cover-literary-fiction.jpg",
-    link: "#",
+    image: "/poetry-book-cover-wind-expression-flowing-pages-ar.jpg",
+    link: "https://www.amazon.com/stores/author/B019HQ5IX6",
   },
   {
     id: 3,
     title: "Moving Forward",
     subtitle: "A journey of transformation",
-    image: "/moving-forward-book-cover-self-help-inspiration-jo.jpg",
-    link: "#",
+    image: "/poetry-book-cover-wind-expression-flowing-pages-ar.jpg",
+    link: "https://www.amazon.com/stores/author/B019HQ5IX6",
   },
   {
     id: 4,
     title: "The Star Maker II",
     subtitle: "Coming Soon",
-    image: "/star-maker-book-cover-astronomy-celestial-fantasy-.jpg",
-    link: "#",
+    image: "/poetry-book-cover-wind-expression-flowing-pages-ar.jpg",
+    link: "https://www.amazon.com/stores/author/B019HQ5IX6",
   },
 ]
 
@@ -103,9 +103,15 @@ export default function BooksCarousel() {
                   </div>
                   <h3 className="text-2xl font-serif font-bold text-foreground mt-6 text-center">{book.title}</h3>
                   <p className="text-secondary text-center mt-2">{book.subtitle}</p>
-                  <Button className="mt-4 px-6 py-2 bg-accent text-accent-foreground font-semibold rounded-lg hover:shadow-lg hover:shadow-accent/50 transition-all duration-300">
-                    Buy on Amazon →
-                  </Button>
+                  <a
+                    href={book.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button className="mt-4 px-6 py-2 bg-accent text-accent-foreground font-semibold rounded-lg hover:scale-110 hover:bg-accent/90 transition-all duration-300">
+                      Buy on Amazon →
+                    </Button>
+                  </a>
                 </div>
               )
             })}
