@@ -30,7 +30,7 @@ const songs: Song[] = [
 
 export default function MusicSection() {
   return (
-    <section id="music" className="relative py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-primary to-muted">
+    <section id="music" className="relative py-20 px-4 sm:px-6 lg:px-8 bg-primary">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold text-center text-foreground mb-4">
           Music & Lyrics
