@@ -60,7 +60,7 @@ export default function Hero() {
           </Button>
           <Button
             onClick={() => scrollToSection("music")}
-            className="px-8 py-3 border-2 border-accent text-accent font-semibold text-lg rounded-lg hover:bg-accent hover:text-accent-foreground transition-all duration-300 hover:scale-105"
+            className="px-8 py-3 border-2 border-accent text-accent font-semibold text-lg rounded-lg hover:bg-accent/80 hover:text-accent-foreground transition-all duration-300 hover:scale-105"
           >
             Listen to My Songs ↓
           </Button>
