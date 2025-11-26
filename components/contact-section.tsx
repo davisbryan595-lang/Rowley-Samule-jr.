@@ -81,7 +81,7 @@ export default function ContactSection() {
             </div>
             <Button
               type="submit"
-              className="w-full px-6 py-3 bg-accent text-accent-foreground font-semibold rounded-lg hover:shadow-lg hover:shadow-accent/50 transition-all duration-300 hover:scale-105"
+              className="w-full px-6 py-3 bg-accent text-accent-foreground font-semibold rounded-lg hover:bg-accent/80 hover:shadow-lg hover:shadow-accent/50 transition-all duration-300 hover:scale-105"
             >
               Send Message
             </Button>
@@ -137,13 +137,17 @@ export default function ContactSection() {
               <p className="text-foreground font-semibold mb-4">Find me on:</p>
               <div className="flex gap-4">
                 <a
-                  href="#"
+                  href="https://www.amazon.com/stores/author/B019HQ5IX6"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="p-3 bg-secondary/20 text-foreground rounded-full hover:bg-accent hover:text-accent-foreground hover:scale-110 transition-all duration-300"
                 >
                   📚 Amazon Author
                 </a>
                 <a
-                  href="#"
+                  href="https://www.youtube.com/channel/UCPBMiQJ3eODIj-fABtZbU8w/about"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="p-3 bg-secondary/20 text-foreground rounded-full hover:bg-accent hover:text-accent-foreground hover:scale-110 transition-all duration-300"
                 >
                   📺 YouTube
