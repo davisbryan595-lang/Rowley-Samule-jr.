@@ -10,21 +10,21 @@ interface Song {
 const songs: Song[] = [
   {
     id: 1,
-    title: "My First Song",
-    thumbnail: "/music-video-thumbnail-musician-singer-recording.jpg",
-    link: "#",
+    title: "Video 1",
+    thumbnail: "https://img.youtube.com/vi/7inAZH9ZjAQ/maxresdefault.jpg",
+    link: "https://youtu.be/7inAZH9ZjAQ?si=bpuF96bu4Y4vUsd0",
   },
   {
     id: 2,
-    title: "Lyrical Journey",
-    thumbnail: "/music-video-thumbnail-songwriter-performance-stage.jpg",
-    link: "#",
+    title: "Video 2",
+    thumbnail: "https://img.youtube.com/vi/arlXYjpoEo4/maxresdefault.jpg",
+    link: "https://youtu.be/arlXYjpoEo4?si=gkj8FjQRfAf6AxSD",
   },
   {
     id: 3,
-    title: "Harmony",
-    thumbnail: "/music-video-thumbnail-concert-live-performance.jpg",
-    link: "#",
+    title: "Video 3",
+    thumbnail: "https://img.youtube.com/vi/Nor8yCBeTtY/maxresdefault.jpg",
+    link: "https://youtu.be/Nor8yCBeTtY?si=KMqIXwIdh7ATRwiq",
   },
 ]
 
