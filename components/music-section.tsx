@@ -100,7 +100,7 @@ export default function MusicSection() {
                 alt={song.title}
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
               />
-              <div className="absolute inset-0 bg-black/50 group-hover:bg-black/30 transition-colors duration-300 flex items-center justify-center">
+              <div className="absolute inset-0 bg-black/50 group-hover:bg-black/30 transition-colors duration-300 flex items-center justify-center pointer-events-none">
                 <svg
                   className="w-16 h-16 text-accent opacity-0 group-hover:opacity-100 transition-opacity"
                   fill="currentColor"
