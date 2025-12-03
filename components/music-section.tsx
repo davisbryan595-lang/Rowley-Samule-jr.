@@ -34,7 +34,7 @@ const songs: Song[] = [
     id: 4,
     title: "Running Scared",
     description: "Filmed last week. Did some editing. Here is my newest video. \"Running Scared\" by Rowley Samuels, Jr.",
-    thumbnail: "https://img.youtube.com/vi/EZLgpBKQwq4/maxresdefault.jpg",
+    thumbnail: "https://cdn.builder.io/api/v1/image/assets%2F98a3bf12d3fd43d6afbc24b607fa1ca0%2F43241f0c6ba2450d9c5752b362d435d3?format=webp&width=800",
     link: "https://youtu.be/EZLgpBKQwq4?si=2FbzfxvOT_C279DE",
   },
   {
