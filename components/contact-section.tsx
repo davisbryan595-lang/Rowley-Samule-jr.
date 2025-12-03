@@ -152,6 +152,14 @@ export default function ContactSection() {
                 >
                   📺 YouTube
                 </a>
+                <a
+                  href="https://www.facebook.com/rowley.samuels"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-3 bg-secondary/20 text-foreground rounded-full hover:bg-accent hover:text-accent-foreground hover:scale-110 transition-all duration-300"
+                >
+                  f Facebook
+                </a>
               </div>
             </div>
           </div>
