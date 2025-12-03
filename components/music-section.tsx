@@ -30,6 +30,20 @@ const songs: Song[] = [
     thumbnail: "https://img.youtube.com/vi/Nor8yCBeTtY/maxresdefault.jpg",
     link: "https://youtu.be/Nor8yCBeTtY?si=KMqIXwIdh7ATRwiq",
   },
+  {
+    id: 4,
+    title: "Running Scared",
+    description: "Filmed last week. Did some editing. Here is my newest video. \"Running Scared\" by Rowley Samuels, Jr.",
+    thumbnail: "https://img.youtube.com/vi/EZLgpBKQwq4/maxresdefault.jpg",
+    link: "https://youtu.be/EZLgpBKQwq4?si=2FbzfxvOT_C279DE",
+  },
+  {
+    id: 5,
+    title: "Special",
+    description: "A fourth original!",
+    thumbnail: "https://img.youtube.com/vi/O9yyVdcbDDw/maxresdefault.jpg",
+    link: "https://youtu.be/O9yyVdcbDDw?si=c6D-zZNda3wMHn6h",
+  },
 ]
 
 export default function MusicSection() {
